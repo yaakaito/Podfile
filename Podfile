@@ -27,7 +27,7 @@ target :ProjectTests, :exclusive => true do
   pod 'OCMock'
   pod 'Specta'
 
-  mocking HTTP
+  # mocking HTTP
   pod 'Nocilla'
   pod 'NLTHTTPStubServer'
 end
