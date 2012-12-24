@@ -16,6 +16,7 @@ pod 'MagicalRecord'
 
 # pull to refresh
 pod 'SVPullToRefresh'
+pod 'CKRefreshControl'
 
 # test
 target :ProjectTests, :exclusive => true do
