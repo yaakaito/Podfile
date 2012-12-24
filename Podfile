@@ -25,9 +25,11 @@ target :ProjectTests, :exclusive => true do
 
   # specta
   pod 'Expecta'
-  pod 'OCMock'
   pod 'Specta'
 
+  # mock
+  pod 'OCMock'
+    
   # mocking HTTP
   pod 'Nocilla'
   pod 'NLTHTTPStubServer'
