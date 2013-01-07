@@ -36,4 +36,9 @@ target :ProjectTests, :exclusive => true do
   # mocking HTTP
   pod 'Nocilla'
   pod 'NLTHTTPStubServer'
+  
+  # UISupport
+  pod 'AlertNinja'
+  
+  pod 'NLTQuickCheck'
 end
